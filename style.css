@@ -566,5 +566,49 @@ width: 800px; ;
     color: #fff;
 }
 
+/* ACCORDION MENU */
+
+
+.accordion_area{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.accordionBox{
+border: #B0B9A8;
+padding: 0 15px 1px;
+background:#B0B9A8;
+color: black;
+border-radius: 10px;
+margin-bottom: 20px;}
+
+.acc_trigger{
+    padding: 15px 40px 15px 0;
+    margin:0;
+    position: relative;
+    
+}
+
+.acc_trigger i{
+    position:absolute;
+    right: 0;
+    top: 16px;
+    font-size: 20px;
+}
+.acc_container{
+display: none;
+}
+
+.accordionBox.active{
+    background: #DCB482;
+
+}
+
+.acc_container p{
+    margin-top: 0px;
+    line-height: 1.6;
+
+}
+
+
 
 
